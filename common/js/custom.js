@@ -6,13 +6,85 @@ $(document).ready(function () {
 
     var clickEventFilter = ((document.ontouchstart !== null) ? 'click' : 'touchstart');
 
-    //langSelectionBox.on(clickEventFilter, function () {
-     //   langSelector.toggleClass('active');
-    //});
+
+    //SHOW OPTIONS BOX 
+
+    var buttonNavItem = $('.first-navigation li a');
+    var navigationOptionsBox = $('.navigation-options');
+    var navigationOptionsBoxItem = $('.navigation-options > div');
+
+    var CloseButtonNavigationOption = $('.navigation-options .close-options');
+    
+    CloseButtonNavigationOption.on(clickEventFilter, function(){
+
+        buttonNavItem.removeClass('active');
+        navigationOptionsBox.removeClass('active');
+        navigationOptionsBoxItem.removeClass('active');
+
+    });
+
+    buttonNavItem.on(clickEventFilter, function(){
+
+        var dataButtonNavItem = $(this).attr('data-options');
+        var IdNavigationOptionsBoxItem = $(`#${dataButtonNavItem}`);
+
+        if(dataButtonNavItem == 'accesories' && $(this).parent().hasClass('active')){
+            
+            navigationOptionsBox.removeClass('active');
+            navigationOptionsBoxItem.removeClass('active');
+            buttonNavItem.removeClass('active');  
+            $(this).parent().removeClass('active')
+
+        } else if(dataButtonNavItem == 'accesories' && !$(this).hasClass('active')){
+
+            navigationOptionsBox.removeClass('active');
+            navigationOptionsBoxItem.removeClass('active');
+            buttonNavItem.removeClass('active');  
+            $(this).parent().addClass('active')
+
+        } else if(IdNavigationOptionsBoxItem.hasClass('active')){
+
+            navigationOptionsBox.removeClass('active');
+            navigationOptionsBoxItem.removeClass('active');
+            $(this).removeClass('active');
+
+        } else if(!IdNavigationOptionsBoxItem.hasClass('active')){
+
+            navigationOptionsBox.addClass('active');
+            navigationOptionsBoxItem.removeClass('active');    
+            IdNavigationOptionsBoxItem.addClass('active');   
+            buttonNavItem.removeClass('active');  
+            $(this).addClass('active');  
+
+        } 
+        
+    });
+
+    //SHOW COPY SVG AND SHOW IN PICTURE 
+
+    var buttonsOptionsItem = $('.navigation-options a') 
+    
+    buttonsOptionsItem.on(clickEventFilter, function(){
+        
+        var buttonOptionItemActive = $(this);
+        var idBoxParentActive = $(this).parent().attr('id');
+        var boxTypePicture = $(`.avatars-box-picture #picture-${idBoxParentActive}`);  
+
+        copyCodeDiv(buttonOptionItemActive, boxTypePicture);
+
+        buttonNavItem.removeClass('active');
+        navigationOptionsBox.removeClass('active');
+        navigationOptionsBoxItem.removeClass('active');
+
+    });
     
 
 });
 
+var btnListaTableVinagresItemsId = $(this).attr('id');
+btnListaTableVinagresItemsData = $('[data-tipo=' + btnListaTableVinagresItemsId +']');
+
+btnListaTableVinagresItemsData.addClass('active');
 
 //Detectar IE/MAC e incluir clase
 
@@ -56,5 +128,15 @@ function classForMacAndIE() {
 
     // other browser
     return false;
+
+}
+
+function copyCodeDiv(itemCopyBox, whereCopyBox){
+
+    whereCopyBox.empty();
+    itemCopyBox.clone().appendTo(whereCopyBox);
+
+    console.log('hola');
+    
 
 }

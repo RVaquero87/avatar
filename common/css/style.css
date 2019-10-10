@@ -1,4 +1,4 @@
-/***************** FONT ****************/
+/* FONT */
 
 /* @font-face {
   font-family: 'Aller Light';
@@ -8,15 +8,168 @@
   font-style: normal;
 } */
 
-/***************** end FONT *****************/
+/* end FONT */
 
 
-/***************** COMMON *****************/
+/* COMMON */
 
-/***************** end COMMON *****************/
+.body{
+    font-family: arial, helvetica, sans-serif;
+    color:#333;
+}
 
+.container{
+    display: block;
+    line-height: 0;
+    font-size: 0;
+    width: 100%;
+}
+.container > div{
+    line-height: 1;
+    font-size: initial;
+}
+.container-768{
+    max-width: 768px;
+}
 
-/***************** Responsive *****************/
+/* end COMMON */
+
+/* section to make avatars */
+
+.avatars{
+    margin: 25px auto;
+}
+.avatars-nav,
+.avatars-box{
+    display:inline-block;
+    vertical-align: top;
+}
+.avatars-nav{
+    line-height: 1;
+    font-size: initial;
+    margin-right: 2.5%;
+    width: 30%;
+}
+.avatars-nav > ul li{
+    display: block;
+    margin-bottom: 15px;
+}
+.avatars-nav > ul li a{
+    color:#333;
+    display: block;
+    font-size: 20px;
+    text-decoration: none;
+}
+.avatars-nav > ul li a:hover,
+.avatars-nav > ul li a.active{
+    text-decoration: underline;
+}
+.avatars-nav .first-navigation-item .second-navigation{
+    display: none;
+}
+.avatars-nav .first-navigation-item .second-navigation{
+    display: none;
+}
+.avatars-nav .first-navigation-item.active .second-navigation{
+    display: block;
+    margin-top: 15px;
+}
+.avatars-nav .first-navigation-item .second-navigation > li{
+    margin-left: 10px;
+}
+.navigation-options{
+    display: none;
+}
+.navigation-options > div{
+    display: none;
+}
+.navigation-options.active{
+    background: #fff;
+    display: block;
+    height: 100vh;
+    left: 0;
+    overflow: auto;
+    position: fixed;
+    text-align: center;
+    top: 0;
+    width: 100%;
+    z-index: 99999; 
+}
+.navigation-options > div.active{
+    display: block;
+    max-width: 1200px;
+    line-height: 0;
+    font-size: 0;
+    text-align: left;
+    padding: 0 10%;
+    margin: 100px auto 50px; 
+}
+.navigation-options > div.active .options-clothes-item{
+    border:1px solid #fff;
+    line-height:0;
+    font-size: 0;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 1% 25px;
+    width: 18%;
+}
+.navigation-options > div.active .options-clothes-item:hover{
+    border:1px solid #000;
+}
+.navigation-options > div.active .options-clothes-item svg{
+    display: block;
+    line-height: 1;
+    font-size: initial;
+    max-width: 100%;
+    width: 100%;
+}
+.navigation-options .close-options{
+    background:url('../img/icon-close.svg') no-repeat center;
+    background-size: contain;
+    display:block;
+    height: 30px;
+    overflow: hidden;
+    position: absolute;
+    right: 15px;
+    text-indent: -99999px;
+    top:15px;
+    width: 30px;
+}
+.avatars-box{
+    width: 67.5%;
+    line-height: 0;
+    font-size: 0;
+}
+.avatars-box-picture{
+    display: inline-block;
+    height: 465px;
+    max-width: 350px;
+    overflow: hidden;
+    position: relative;
+    vertical-align: bottom;
+    width: 100%;
+}
+.avatars-box-picture .picture-clothes{
+    max-width: 100%;
+    width: 100%;
+}
+.avatars-box-picture .picture-clothes svg{
+    max-width: 100%;
+    width: 100%;
+}
+.avatars-box-buttons{
+    display: inline-block;
+    line-height: 1;
+    font-size:initial;
+    margin-left: 2.5%;
+    max-width: 150px;
+    vertical-align: bottom;
+    width: 29%;
+}
+
+/* end section to make avatars */
+
+/* Responsive */
 
 @media only screen and (max-width : 1200px) {}
 @media only screen and (max-width : 1024px) {}
