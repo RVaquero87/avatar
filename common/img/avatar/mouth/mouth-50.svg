@@ -1,42 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 23.0.6, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 653.33 230.98" style="enable-background:new 0 0 653.33 230.98;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill:#674234;}
-	.st1{fill:#563930;}
-	.st2{fill-rule:evenodd;clip-rule:evenodd;fill:#674234;}
-	.st3{fill:#FFFFFF;}
-	.st4{fill:#D68B62;}
-	.st5{fill:#AC5F4A;}
-	.st6{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
-	.st7{fill:#DF6958;}
-	.st8{fill:#37333D;}
-	.st9{fill:#CD3D3C;}
-	.st10{fill-rule:evenodd;clip-rule:evenodd;fill:#DA4D4B;}
-	.st11{fill-rule:evenodd;clip-rule:evenodd;fill:#ED625F;}
-	.st12{fill:#DA4D4B;}
-	.st13{fill-rule:evenodd;clip-rule:evenodd;fill:#CD3D3C;}
-	.st14{fill-rule:evenodd;clip-rule:evenodd;fill:#ED8173;}
-	.st15{fill-rule:evenodd;clip-rule:evenodd;fill:#37333D;}
-	.st16{fill:#ED625F;}
-	.st17{fill:#ED8173;}
-	.st18{fill:#B62D32;}
-	.st19{fill-rule:evenodd;clip-rule:evenodd;fill:#B62D32;}
-	.st20{fill:#CE5D51;}
-	.st21{fill:#B73535;}
-	.st22{fill:#D69062;}
-</style>
+	 viewBox="0 0 653.33 230.98" enable-background="new 0 0 653.33 230.98" xml:space="preserve">
 <g>
-	<path class="st8" d="M3.12,91.91c101.37,114.04,182.33,109.53,182.33,109.53s110.82,4.27,215.51,8.8
+	<path fill="#37333D" d="M3.12,91.91c101.37,114.04,182.33,109.53,182.33,109.53s110.82,4.27,215.51,8.8
 		c104.68,4.5,251.76-117,251.76-117C302.16-86.76,3.12,91.91,3.12,91.91z"/>
-	<path class="st3" d="M328.03,5.44C231,5.44,143.9,26.49,84.3,45.85c2.02-0.29,3.94-0.49,5.76-0.58l25.92,31.09
+	<path fill="#FFFFFF" d="M328.03,5.44C231,5.44,143.9,26.49,84.3,45.85c2.02-0.29,3.94-0.49,5.76-0.58l25.92,31.09
 		c0,0,96.22,17.55,213.29,17.55c112.28,0,209.33-17.55,209.33-17.55l24.07-31.09C566.74,45.48,427.59,5.44,328.03,5.44z"/>
 	<g>
-		<path class="st16" d="M326.66,24.26c57.1-0.05,117.84,1.65,176.38,15.17c53.41,12.35,105,35.67,150.29,53.81
+		<path fill="#ED625F" d="M326.66,24.26c57.1-0.05,117.84,1.65,176.38,15.17c53.41,12.35,105,35.67,150.29,53.81
 			C643.06,85.32,525.27,12.91,447.3,2.29C401.91-3.89,361.76,4.4,326.66,4.4c-35.09-0.01-68.46-8.3-113.85-2.11
 			C134.82,12.91,10.27,85.32,0,93.24C47.47,74.23,101.84,50.19,158,37.7C214.14,25.19,272.07,24.22,326.66,24.26z"/>
-		<path class="st16" d="M327.79,161.89C49.57,160.84,13.31,100.43,0,93.24c87.14,105.84,153.74,131.16,264.54,137.59
+		<path fill="#ED625F" d="M327.79,161.89C49.57,160.84,13.31,100.43,0,93.24c87.14,105.84,153.74,131.16,264.54,137.59
 			c0,0.2,126.51,0.2,126.51,0c110.63-6.43,176.71-20.28,262.28-137.59C640.02,100.43,592.28,162.9,327.79,161.89z"/>
 	</g>
 </g>

@@ -1,40 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 23.0.6, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 735.1 234.31" style="enable-background:new 0 0 735.1 234.31;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill:#674234;}
-	.st1{fill:#563930;}
-	.st2{fill-rule:evenodd;clip-rule:evenodd;fill:#674234;}
-	.st3{fill:#FFFFFF;}
-	.st4{fill:#D68B62;}
-	.st5{fill:#AC5F4A;}
-	.st6{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
-	.st7{fill:#DF6958;}
-	.st8{fill:#37333D;}
-	.st9{fill:#CD3D3C;}
-	.st10{fill-rule:evenodd;clip-rule:evenodd;fill:#DA4D4B;}
-	.st11{fill-rule:evenodd;clip-rule:evenodd;fill:#ED625F;}
-	.st12{fill:#DA4D4B;}
-	.st13{fill-rule:evenodd;clip-rule:evenodd;fill:#CD3D3C;}
-	.st14{fill-rule:evenodd;clip-rule:evenodd;fill:#ED8173;}
-	.st15{fill-rule:evenodd;clip-rule:evenodd;fill:#37333D;}
-	.st16{fill:#ED625F;}
-	.st17{fill:#ED8173;}
-	.st18{fill:#B62D32;}
-	.st19{fill-rule:evenodd;clip-rule:evenodd;fill:#B62D32;}
-	.st20{fill:#CE5D51;}
-	.st21{fill:#B73535;}
-	.st22{fill:#D69062;}
-</style>
+	 viewBox="0 0 735.1 234.31" enable-background="new 0 0 735.1 234.31" xml:space="preserve">
 <g>
-	<path class="st0" d="M367.55,226.88c-45.24-0.26-90.47-0.26-135.7-0.16c-0.54,0,88.74,7.8,133.67,7.58c0.68,0,3.39,0,4.06,0
+	<path fill="#674234" d="M367.55,226.88c-45.24-0.26-90.47-0.26-135.7-0.16c-0.54,0,88.74,7.8,133.67,7.58c0.68,0,3.39,0,4.06,0
 		c44.91,0.22,134.22-7.58,133.68-7.58C458.02,226.63,412.79,226.63,367.55,226.88z"/>
-	<path class="st0" d="M598.04,87.8c-31.78,24.01-71.3,34.61-111.48,40.07c-38.91,5.29-79.1,4.73-119.02,6.4
+	<path fill="#674234" d="M598.04,87.8c-31.78,24.01-71.3,34.61-111.48,40.07c-38.91,5.29-79.1,4.73-119.02,6.4
 		c-39.92-1.67-80.1-1.12-119.02-6.4c-40.17-5.46-79.7-16.06-111.48-40.07c-5.11-3.76-7.51-4.38-1.45,2.7
 		c45.66,43.06,129.2,63.84,227,71.2c0,0.25,9.89,0.25,9.89,0c97.79-7.36,181.34-28.14,227-71.2
 		C605.55,83.42,603.15,84.04,598.04,87.8z"/>
-	<path class="st0" d="M710.22,2.06c0,2.49-6.2,18.61-21.5,17.43c-26.93-2.05-53.91-7.14-80.59-9.69
+	<path fill="#674234" d="M710.22,2.06c0,2.49-6.2,18.61-21.5,17.43c-26.93-2.05-53.91-7.14-80.59-9.69
 		c-33.81-3.23-67.87-10.6-100.9-9.72c-47,1.24-93.2,7.92-139.69,12.52c-46.5-4.6-92.69-11.28-139.67-12.52
 		c-33.04-0.87-67.11,6.49-100.92,9.72c-26.69,2.55-53.66,7.64-80.58,9.69C31.07,20.67,24.87,4.55,24.87,2.06
 		c-3.45,0.5-27.44,46.26-24.64,46.6c5.33-4.66,9.93-9.54,16.39-13.91c2.75-1.84,9.66-3.08,14.34-3.73

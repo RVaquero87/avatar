@@ -1,35 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 23.0.6, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 641.33 269.1" style="enable-background:new 0 0 641.33 269.1;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill:#674234;}
-	.st1{fill:#563930;}
-	.st2{fill-rule:evenodd;clip-rule:evenodd;fill:#674234;}
-	.st3{fill:#FFFFFF;}
-	.st4{fill:#D68B62;}
-	.st5{fill:#AC5F4A;}
-	.st6{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
-	.st7{fill:#DF6958;}
-	.st8{fill:#37333D;}
-	.st9{fill:#CD3D3C;}
-	.st10{fill-rule:evenodd;clip-rule:evenodd;fill:#DA4D4B;}
-	.st11{fill-rule:evenodd;clip-rule:evenodd;fill:#ED625F;}
-	.st12{fill:#DA4D4B;}
-	.st13{fill-rule:evenodd;clip-rule:evenodd;fill:#CD3D3C;}
-	.st14{fill-rule:evenodd;clip-rule:evenodd;fill:#ED8173;}
-	.st15{fill-rule:evenodd;clip-rule:evenodd;fill:#37333D;}
-	.st16{fill:#ED625F;}
-	.st17{fill:#ED8173;}
-	.st18{fill:#B62D32;}
-	.st19{fill-rule:evenodd;clip-rule:evenodd;fill:#B62D32;}
-	.st20{fill:#CE5D51;}
-	.st21{fill:#B73535;}
-	.st22{fill:#D69062;}
-</style>
-<path class="st15" d="M641.31,152.52c-20.45,4.54-67.28-52.83-81.37-65.61c0,0,0,0-0.01-0.01C519.72,50.46,469.61,6.9,415.32,0.63
-	c-25.96-3-73.15,4.4-94.65,29.49c-21.5-25.08-68.69-32.48-94.66-29.49C171.73,6.9,121.61,50.46,81.4,86.91c0,0-0.01,0-0.01,0
-	c-14.1,12.78-60.93,70.15-81.38,65.61c-0.01,0-0.01,0-0.02-0.01c44.17,10.17,80.27,43.26,117.99,64.24
-	c34.71,19.31,71.4,34.48,109.65,43.43c11.02,2.58,54.35,8.99,96.72,8.91c39.91-0.07,78.97-6.48,89.35-8.91
-	c38.24-8.95,74.93-24.13,109.65-43.43c37.72-20.98,73.81-54.07,117.99-64.24C641.33,152.52,641.32,152.52,641.31,152.52z"/>
+	 viewBox="0 0 641.33 269.1" enable-background="new 0 0 641.33 269.1" xml:space="preserve">
+<path fill-rule="evenodd" clip-rule="evenodd" fill="#37333D" d="M641.31,152.52c-20.45,4.54-67.28-52.83-81.37-65.61
+	c0,0,0,0-0.01-0.01C519.72,50.46,469.61,6.9,415.32,0.63c-25.96-3-73.15,4.4-94.65,29.49c-21.5-25.08-68.69-32.48-94.66-29.49
+	C171.73,6.9,121.61,50.46,81.4,86.91c0,0-0.01,0-0.01,0c-14.1,12.78-60.93,70.15-81.38,65.61c-0.01,0-0.01,0-0.02-0.01
+	c44.17,10.17,80.27,43.26,117.99,64.24c34.71,19.31,71.4,34.48,109.65,43.43c11.02,2.58,54.35,8.99,96.72,8.91
+	c39.91-0.07,78.97-6.48,89.35-8.91c38.24-8.95,74.93-24.13,109.65-43.43c37.72-20.98,73.81-54.07,117.99-64.24
+	C641.33,152.52,641.32,152.52,641.31,152.52z"/>
 </svg>

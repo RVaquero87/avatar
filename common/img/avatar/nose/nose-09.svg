@@ -1,23 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 23.0.6, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 371.31 195.42" style="enable-background:new 0 0 371.31 195.42;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill:#674234;}
-	.st1{fill-rule:evenodd;clip-rule:evenodd;fill:#D68B62;}
-	.st2{fill-rule:evenodd;clip-rule:evenodd;fill:#AC5F4A;}
-	.st3{fill:#F7B48F;}
-	.st4{fill:#D68B62;}
-	.st5{fill:#AC5F4A;}
-	.st6{fill:#C4734A;}
-	.st7{fill:#C17B57;}
-	.st8{fill-rule:evenodd;clip-rule:evenodd;fill:#F7B48F;}
-	.st9{fill-rule:evenodd;clip-rule:evenodd;fill:#F7BEA1;}
-	.st10{fill-rule:evenodd;clip-rule:evenodd;fill:#674234;}
-</style>
-<path class="st10" d="M335.88,0c7.58,20.22,16.56,39.99,22.38,60.8c7.5,26.76-1.77,49.21-20.44,56.12
-	c-3.11-16.14-24.71-20.6-43.43-9.83c-34.52,19.85-66.88,45.93-108.53,46.4c-0.06,0-0.14,0-0.2,0c-0.07,0-0.14,0-0.21,0
-	c-41.64-0.47-74-26.56-108.53-46.4c-18.72-10.77-40.31-6.31-43.43,9.83C14.82,110.01,5.56,87.56,13.05,60.8
+	 viewBox="0 0 371.31 195.42" enable-background="new 0 0 371.31 195.42" xml:space="preserve">
+<path fill-rule="evenodd" clip-rule="evenodd" fill="#674234" d="M335.88,0c7.58,20.22,16.56,39.99,22.38,60.8
+	c7.5,26.76-1.77,49.21-20.44,56.12c-3.11-16.14-24.71-20.6-43.43-9.83c-34.52,19.85-66.88,45.93-108.53,46.4c-0.06,0-0.14,0-0.2,0
+	c-0.07,0-0.14,0-0.21,0c-41.64-0.47-74-26.56-108.53-46.4c-18.72-10.77-40.31-6.31-43.43,9.83C14.82,110.01,5.56,87.56,13.05,60.8
 	c5.81-20.8,14.8-40.57,22.38-60.8C-8.08,54.38-7.11,127.41,14.71,137.37c52.48,27.85,111.05,54.24,141.1,57.82
 	c0,0.3,59.68,0.3,59.68,0c30.06-3.58,88.62-29.97,141.1-57.82C378.42,127.41,379.4,54.38,335.88,0z"/>
 </svg>

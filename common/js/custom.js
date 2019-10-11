@@ -8,23 +8,18 @@ $(document).ready(function () {
 
     //SVG LOADING
 
-    var buttonsOptionsItem = $('.navigation-options div a')
-
-    var ArrayButtonsOptionsItem = [buttonsOptionsItem];
-
-    console.log(ArrayButtonsOptionsItem);
+    var buttonsOptionsItem = $('.navigation-options div a.options-inner-item')    
     
-    
-    ArrayButtonsOptionsItem.forEach(function(optionItem){
+    buttonsOptionsItem.each(function(n){
 
-        var idBoxOptionsItem = optionItem.parent().attr('id');
+        var idBoxOptionsItem = $(this).parent().attr('id');
 
         console.log(idBoxOptionsItem);
         
-        var idButtonsOptionsItem = optionItem.attr('id');
+        var idButtonsOptionsItem = $(this).attr('id');
         var rootSVG = `./common/img/avatar/${idBoxOptionsItem}/${idButtonsOptionsItem}.svg`;
 
-        htmlInclude(optionItem, rootSVG);
+        htmlInclude($(this), rootSVG);
 
     });
 

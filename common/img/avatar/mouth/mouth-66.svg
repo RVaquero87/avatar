@@ -1,35 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 23.0.6, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 587.7 264" style="enable-background:new 0 0 587.7 264;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill:#674234;}
-	.st1{fill:#563930;}
-	.st2{fill-rule:evenodd;clip-rule:evenodd;fill:#674234;}
-	.st3{fill:#FFFFFF;}
-	.st4{fill:#D68B62;}
-	.st5{fill:#AC5F4A;}
-	.st6{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
-	.st7{fill:#DF6958;}
-	.st8{fill:#37333D;}
-	.st9{fill:#CD3D3C;}
-	.st10{fill-rule:evenodd;clip-rule:evenodd;fill:#DA4D4B;}
-	.st11{fill-rule:evenodd;clip-rule:evenodd;fill:#ED625F;}
-	.st12{fill:#DA4D4B;}
-	.st13{fill-rule:evenodd;clip-rule:evenodd;fill:#CD3D3C;}
-	.st14{fill-rule:evenodd;clip-rule:evenodd;fill:#ED8173;}
-	.st15{fill-rule:evenodd;clip-rule:evenodd;fill:#37333D;}
-	.st16{fill:#ED625F;}
-	.st17{fill:#ED8173;}
-	.st18{fill:#B62D32;}
-	.st19{fill-rule:evenodd;clip-rule:evenodd;fill:#B62D32;}
-	.st20{fill:#CE5D51;}
-	.st21{fill:#B73535;}
-	.st22{fill:#D69062;}
-</style>
-<path class="st13" d="M424.87,1.37c-26.4-2.01-52.41-2.97-77.48,5.73c-12.75,4.42-25.42,11.11-38.1,16.58
-	c-5.09,2.2-10.24,3.92-15.43,4.78c-5.19-0.86-10.33-2.59-15.43-4.78c-12.69-5.47-25.35-12.16-38.1-16.58
-	c-25.07-8.7-51.08-7.75-77.49-5.73C129.33,3.93,21.33,47.92,0,49.13c38.46,60.28,63.8,104.15,110.41,148.53
-	c32.71,31.15,71.65,51.54,113.3,59.79c22.88,4.53,46.79,6.55,70.14,6.55c23.35,0,47.27-2.01,70.14-6.55
-	c41.64-8.25,80.57-28.64,113.3-59.79c46.63-44.38,74.74-89.5,110.4-148.53C566.36,47.92,458.36,3.93,424.87,1.37z"/>
+	 viewBox="0 0 587.7 264" enable-background="new 0 0 587.7 264" xml:space="preserve">
+<path fill-rule="evenodd" clip-rule="evenodd" fill="#CD3D3C" d="M424.87,1.37c-26.4-2.01-52.41-2.97-77.48,5.73
+	c-12.75,4.42-25.42,11.11-38.1,16.58c-5.09,2.2-10.24,3.92-15.43,4.78c-5.19-0.86-10.33-2.59-15.43-4.78
+	c-12.69-5.47-25.35-12.16-38.1-16.58c-25.07-8.7-51.08-7.75-77.49-5.73C129.33,3.93,21.33,47.92,0,49.13
+	c38.46,60.28,63.8,104.15,110.41,148.53c32.71,31.15,71.65,51.54,113.3,59.79c22.88,4.53,46.79,6.55,70.14,6.55
+	c23.35,0,47.27-2.01,70.14-6.55c41.64-8.25,80.57-28.64,113.3-59.79c46.63-44.38,74.74-89.5,110.4-148.53
+	C566.36,47.92,458.36,3.93,424.87,1.37z"/>
 </svg>

@@ -113,6 +113,47 @@
     margin: 0 1% 25px;
     width: 18%;
 }
+.navigation-options > .options-hair.options-box-item.active .options-inner-item{
+    margin-left:1.15%;
+    margin-right:1.15%;
+    width: 10%;
+}
+.navigation-options > .options-eyes.options-box-item.active .options-inner-item{
+    margin-left:2.5%;
+    margin-right:2.5%;
+    vertical-align: middle;
+    width: 15%;
+}
+.navigation-options > .options-nose.options-box-item.active .options-inner-item{
+    margin-left:3%;
+    margin-right:3%;
+    vertical-align: bottom;
+    width: 8%;
+}
+.navigation-options > .options-mouth.options-box-item.active .options-inner-item{
+    margin-left:4.2%;
+    margin-right:4.2%;
+    vertical-align: middle;
+    width: 8%;
+}
+.navigation-options > .options-beard_mustache.options-box-item.active .options-inner-item{
+    margin-left:3.2%;
+    margin-right:3.2%;
+    vertical-align: top;
+    width: 10%;
+}
+.navigation-options > .options-glasses.options-box-item.active .options-inner-item{
+    margin-left:3%;
+    margin-right:3%;
+    vertical-align: middle;
+    width: 14%;
+}
+.navigation-options > .options-hats.options-box-item.active .options-inner-item{
+    margin-left:2%;
+    margin-right:2%;
+    vertical-align: middle;
+    width: 16%;
+}
 .navigation-options > .options-box-item.active .options-inner-item:hover{
     border:1px solid #000;
 }
@@ -142,7 +183,7 @@
 }
 .avatars-box-picture{
     display: inline-block;
-    height: 465px;
+    padding-top: 50px;
     max-width: 350px;
     overflow: hidden;
     position: relative;
@@ -150,10 +191,65 @@
     width: 100%;
 }
 .avatars-box-picture .picture-clothes{
+    height: 465px;
     max-width: 100%;
     width: 100%;
+    overflow: hidden;
 }
-.avatars-box-picture .picture-clothes svg{
+.avatars-box-picture .picture-hair{
+    left: 114px;
+    max-width: 136px;
+    position: absolute;
+    top: 17px;
+    width: 100%;
+    z-index: 3;
+}
+.avatars-box-picture .picture-eyes{
+    left: 137px;
+    max-width: 89px;
+    position: absolute;
+    top: 113px;
+    width: 100%;
+}
+.avatars-box-picture .picture-nose{
+    left: 166px;
+    max-width: 28px;
+    position: absolute;
+    top: 139px;
+    width: 100%;
+}
+.avatars-box-picture .picture-mouth{
+    left: 152px;
+    max-width: 58px;
+    position: absolute;
+    top: 168px;
+    width: 100%;
+}
+.avatars-box-picture .picture-beard_mustache{
+    left: 145px;
+    max-width: 70px;
+    position: absolute;
+    top: 163px;
+    width: 100%;
+    z-index: 2;
+}
+.avatars-box-picture .picture-glasses{
+    left: 133px;
+    max-width: 97px;
+    position: absolute;
+    top: 113px;
+    width: 100%;
+    z-index:2;
+}
+.avatars-box-picture .picture-hats{
+    position: absolute;
+    max-width: 140px;
+    width: 100%;
+    top: 0px;
+    left: 110px;
+    z-index:4;
+}
+.avatars-box-picture > div svg{
     max-width: 100%;
     width: 100%;
 }
@@ -161,10 +257,114 @@
     display: inline-block;
     line-height: 1;
     font-size:initial;
+    padding-top: 50px;
     margin-left: 2.5%;
     max-width: 150px;
-    vertical-align: bottom;
+    vertical-align: top;
     width: 29%;
+}
+.avatars-box-buttons > div > a{
+    border: 1px solid #333;
+    display: block;
+    height:30px;
+    font-size: initial;
+    line-height: 1;
+    overflow: hidden;
+    width: 30px;
+}
+.avatars-box-buttons-delete{
+    display: inline-block;
+    margin-top: 20px;
+    position: relative;
+    text-align: right;
+    width: 100%;
+}
+#delete-box.avatars-box-buttons-delete-box-item{
+    display: inline-block;
+    background: url('../img/icon-close.svg') no-repeat center;
+    background-size: 70%;
+    text-indent: -99999px;
+}
+#delete-box.avatars-box-buttons-delete-box-item:hover{
+    background-size: 60%;
+}
+.avatars-box-buttons-position{
+    display: inline-block;
+    font-size: 0;
+    line-height: 0;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    width: 100px;
+}
+.avatars-box-buttons-position-item{
+    background: url('../img/icon-up.svg') no-repeat center;
+    background-size: 90%;
+    text-indent: -99999px;
+}
+#position-top.avatars-box-buttons-position-item,#position-bottom.avatars-box-buttons-position-item{
+    display: block;
+    margin: 0 auto;
+}
+#position-right.avatars-box-buttons-position-item,
+#position-left.avatars-box-buttons-position-item{
+    display: inline-block;
+    vertical-align: middle;
+}
+#position-left.avatars-box-buttons-position-item{
+    margin-right: 15px;
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
+#position-right.avatars-box-buttons-position-item{
+    margin-left: 15px;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+#position-bottom.avatars-box-buttons-position-item{
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+#position-bottom.avatars-box-buttons-position-item{
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+.avatars-box-buttons-position-item:hover{
+    background-size: 80%;
+}
+.avatars-box-buttons-size{
+    display: inline-block;
+    margin-left: 15px;
+    vertical-align: middle;
+    width: 30px;
+}
+.avatars-box-buttons-size-item{
+    text-indent: -99999px;
+}
+#size-max.avatars-box-buttons-size-item{
+    background: url('../img/ver-mas.svg') no-repeat center;
+    background-size: 70%;
+    margin-bottom: 10px;
+}
+#size-min.avatars-box-buttons-size-item{
+    background: url('../img/ver-menos.svg') no-repeat center;
+    background-size: 70%;
+}
+#size-min.avatars-box-buttons-size-item:hover,
+#size-max.avatars-box-buttons-size-item:hover{
+    background-size: 60%;
 }
 
 /* end section to make avatars */

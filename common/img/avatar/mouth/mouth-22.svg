@@ -1,34 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 23.0.6, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 786.5 265.97" style="enable-background:new 0 0 786.5 265.97;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill:#674234;}
-	.st1{fill:#563930;}
-	.st2{fill-rule:evenodd;clip-rule:evenodd;fill:#674234;}
-	.st3{fill:#FFFFFF;}
-	.st4{fill:#D68B62;}
-	.st5{fill:#AC5F4A;}
-	.st6{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
-	.st7{fill:#DF6958;}
-	.st8{fill:#37333D;}
-	.st9{fill:#CD3D3C;}
-	.st10{fill-rule:evenodd;clip-rule:evenodd;fill:#DA4D4B;}
-	.st11{fill-rule:evenodd;clip-rule:evenodd;fill:#ED625F;}
-	.st12{fill:#DA4D4B;}
-	.st13{fill-rule:evenodd;clip-rule:evenodd;fill:#CD3D3C;}
-	.st14{fill-rule:evenodd;clip-rule:evenodd;fill:#ED8173;}
-	.st15{fill-rule:evenodd;clip-rule:evenodd;fill:#37333D;}
-	.st16{fill:#ED625F;}
-	.st17{fill:#ED8173;}
-	.st18{fill:#B62D32;}
-	.st19{fill-rule:evenodd;clip-rule:evenodd;fill:#B62D32;}
-	.st20{fill:#CE5D51;}
-	.st21{fill:#B73535;}
-	.st22{fill:#D69062;}
-</style>
+	 viewBox="0 0 786.5 265.97" enable-background="new 0 0 786.5 265.97" xml:space="preserve">
 <g>
-	<path class="st0" d="M786.48,97.14c-4.01-21.61-7.51-59.08-30.06-97.14c2.12,13.65,0.82,19.9,1.1,28.75
+	<path fill="#674234" d="M786.48,97.14c-4.01-21.61-7.51-59.08-30.06-97.14c2.12,13.65,0.82,19.9,1.1,28.75
 		c0.12,3.69-9.36,9.31-12.28,10.77c-14.59,7.32-33.47,11.09-50.14,7.25c-23.68-5.46-47.37-10.82-71.46-14.19
 		c-53.29-7.44-131.47-17.77-171.46,5.09c-21.09,8.92-35.1,11.77-58.94,15.34c-23.16-3.25-37.84-6.42-58.93-15.34
 		c-39.98-22.86-118.18-12.53-171.47-5.09c-24.08,3.37-47.76,8.73-71.45,14.19c-16.67,3.83-30.71,0.06-50.14-7.25
@@ -36,7 +11,7 @@
 		C-0.41,99.4,7.53,74.02,16.9,60.91c57.29,14.96,83.93,21.53,93.87,22.86c34.73,4.66,69.14,10.95,103.67,16.69
 		c49.61,8.22,99.01,17.57,148.94,23.95c9.22,1.17,50.52,1.17,59.73,0c49.93-6.38,99.33-15.73,148.94-23.95
 		c34.53-5.74,68.94-12.03,103.67-16.69c9.94-1.33,49.53-11.95,93.87-22.86C778.98,74.02,786.9,99.4,786.48,97.14z"/>
-	<path class="st2" d="M209.69,214.06c60.34,49.63,150.93,57.94,233.05,48.51c58.64-6.73,104.01-23.75,158.39-48.22
-		C516.21,233.21,338.7,254.84,209.69,214.06z"/>
+	<path fill-rule="evenodd" clip-rule="evenodd" fill="#674234" d="M209.69,214.06c60.34,49.63,150.93,57.94,233.05,48.51
+		c58.64-6.73,104.01-23.75,158.39-48.22C516.21,233.21,338.7,254.84,209.69,214.06z"/>
 </g>
 </svg>
