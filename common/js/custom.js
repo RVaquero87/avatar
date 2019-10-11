@@ -6,6 +6,27 @@ $(document).ready(function () {
 
     var clickEventFilter = ((document.ontouchstart !== null) ? 'click' : 'touchstart');
 
+    //SVG LOADING
+
+    var buttonsOptionsItem = $('.navigation-options div a')
+
+    var ArrayButtonsOptionsItem = [buttonsOptionsItem];
+
+    console.log(ArrayButtonsOptionsItem);
+    
+    
+    ArrayButtonsOptionsItem.forEach(function(optionItem){
+
+        var idBoxOptionsItem = optionItem.parent().attr('id');
+
+        console.log(idBoxOptionsItem);
+        
+        var idButtonsOptionsItem = optionItem.attr('id');
+        var rootSVG = `./common/img/avatar/${idBoxOptionsItem}/${idButtonsOptionsItem}.svg`;
+
+        htmlInclude(optionItem, rootSVG);
+
+    });
 
     //SHOW OPTIONS BOX 
 
@@ -61,8 +82,6 @@ $(document).ready(function () {
     });
 
     //SHOW COPY SVG AND SHOW IN PICTURE 
-
-    var buttonsOptionsItem = $('.navigation-options a') 
     
     buttonsOptionsItem.on(clickEventFilter, function(){
         
@@ -131,12 +150,19 @@ function classForMacAndIE() {
 
 }
 
+//Incluir HTMl
+
+function htmlInclude(fileInclude, whereIncludeFile){
+
+    fileInclude.load(whereIncludeFile);
+
+}
+
+//Copy item y pegarlo en box
+
 function copyCodeDiv(itemCopyBox, whereCopyBox){
 
     whereCopyBox.empty();
-    itemCopyBox.clone().appendTo(whereCopyBox);
-
-    console.log('hola');
-    
+    itemCopyBox.clone().appendTo(whereCopyBox);    
 
 }

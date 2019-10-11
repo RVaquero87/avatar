@@ -80,7 +80,7 @@
 .navigation-options{
     display: none;
 }
-.navigation-options > div{
+.navigation-options > .options-box-item{
     display: none;
 }
 .navigation-options.active{
@@ -95,7 +95,7 @@
     width: 100%;
     z-index: 99999; 
 }
-.navigation-options > div.active{
+.navigation-options > .options-box-item.active{
     display: block;
     max-width: 1200px;
     line-height: 0;
@@ -104,7 +104,7 @@
     padding: 0 10%;
     margin: 100px auto 50px; 
 }
-.navigation-options > div.active .options-clothes-item{
+.navigation-options > .options-box-item.active .options-inner-item{
     border:1px solid #fff;
     line-height:0;
     font-size: 0;
@@ -113,10 +113,10 @@
     margin: 0 1% 25px;
     width: 18%;
 }
-.navigation-options > div.active .options-clothes-item:hover{
+.navigation-options > .options-box-item.active .options-inner-item:hover{
     border:1px solid #000;
 }
-.navigation-options > div.active .options-clothes-item svg{
+.navigation-options > .options-box-item.active .options-inner-item svg{
     display: block;
     line-height: 1;
     font-size: initial;
