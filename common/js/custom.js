@@ -14,7 +14,7 @@ $(document).ready(function () {
 
         var idBoxOptionsItem = $(this).parent().attr('id');
 
-        console.log(idBoxOptionsItem);
+        //console.log(idBoxOptionsItem);
         
         var idButtonsOptionsItem = $(this).attr('id');
         var rootSVG = `./common/img/avatar/${idBoxOptionsItem}/${idButtonsOptionsItem}.svg`;
@@ -83,15 +83,73 @@ $(document).ready(function () {
         var buttonOptionItemActive = $(this);
         var idBoxParentActive = $(this).parent().attr('id');
         var boxTypePicture = $(`.avatars-box-picture #picture-${idBoxParentActive}`);  
+        var boxTypePictureMin = $(`.avatars-box-picture-min #picture-${idBoxParentActive}-min`);  
 
         copyCodeDiv(buttonOptionItemActive, boxTypePicture);
+        copyCodeDiv(buttonOptionItemActive, boxTypePictureMin);
 
         buttonNavItem.removeClass('active');
         navigationOptionsBox.removeClass('active');
         navigationOptionsBoxItem.removeClass('active');
+        boxTypePictureMin.addClass('active');
 
     });
+
+    //ACTIVE MIN PICTURE
+
+    var buttonsPictureMin = $('.avatars-box-picture-min > div ')
     
+    buttonsPictureMin.on(clickEventFilter, function(){
+
+        if( $(this).hasClass('active-focus') ){
+
+            buttonsPictureMin.removeClass('active-focus');
+
+        } else {
+
+            buttonsPictureMin.removeClass('active-focus');
+            $(this).addClass('active-focus')
+            
+        }
+
+    }); 
+
+
+    //MOVER POSICTION
+
+    var buttonPositionPicture = $('.avatars-box-buttons-position .avatars-box-buttons-position-item');
+
+    buttonPositionPicture.on(clickEventFilter, function(){
+
+        if(buttonsPictureMin.hasClass('active-focus')){
+
+            var buttonsPictureMinActiveID = $('.avatars-box-picture-min > div.active-focus').attr('id');  
+            buttonsPictureMinActiveID = buttonsPictureMinActiveID.slice(0,buttonsPictureMinActiveID.length-4);
+            var buttonPositionPictureID = $(this).attr('id');        
+            var boxPicturePosition = $(`.avatars-box-picture #${buttonsPictureMinActiveID}`);            
+
+            switch(buttonPositionPictureID){
+                case 'position-top':
+                    var topBoxPicturePosition = BoxPicturePosition.css('top');
+                    boxPicturePosition.css('top', boxPicturePosition.css('top') - 1px);
+                    console.log(boxPicturePosition.css('top'));
+                break;
+                case 'position-bottom':
+                    console.log('bottom');    
+                break;
+                case 'position-left':
+                    console.log('left');    
+                break;
+                case 'position-right':
+                    console.log('right');    
+                break;
+            }
+
+        }
+
+    });
+
+
 
 });
 
