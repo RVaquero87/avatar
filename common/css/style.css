@@ -187,7 +187,7 @@
     max-width: 350px;
     overflow: hidden;
     position: relative;
-    vertical-align: bottom;
+    vertical-align: top;
     width: 100%;
 }
 .avatars-box-picture .picture-clothes{
@@ -257,7 +257,7 @@
     display: inline-block;
     line-height: 1;
     font-size:initial;
-    padding-top: 50px;
+    padding-top: 0px;
     margin-left: 2.5%;
     max-width: 150px;
     vertical-align: top;
@@ -386,11 +386,12 @@
 }
 .avatars-box-picture-min > div > a{
     display: block;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=65)";
-     filter: alpha(opacity=65);
-    -moz-opacity: 0.65;
-    -khtml-opacity: 0.65;
-    opacity: 0.65;
+    filter: grayscale(100%);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
+     filter: alpha(opacity=40);
+    -moz-opacity: 0.40;
+    -khtml-opacity: 0.40;
+    opacity: 0.40;
     width: 100%;
 }
 .avatars-box-picture-min > div.active > a:hover,

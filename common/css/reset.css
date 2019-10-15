@@ -332,13 +332,14 @@ textarea {
 
 
 ::-moz-selection {
-    background: #b3d4fc;
+    border:0;
     text-shadow: none;
 }
 
-::selection {
-    background: #b3d4fc;
+::selection, a:active, a:focus {
+    border:0;
     text-shadow: none;
+    outline: none;
 }
 
 img {
