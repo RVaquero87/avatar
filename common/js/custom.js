@@ -85,6 +85,7 @@ $(document).ready(function () {
         var boxTypePicture = $(`.avatars-box-picture #picture-${idBoxParentActive}`);  
         var boxTypePictureMinFocus = $(`.avatars-box-picture-min  > div.active-focus`);  
         var boxTypePictureMin = $(`.avatars-box-picture-min #picture-${idBoxParentActive}-min`);  
+        var panelColor = $('.avatars-box-colors');
 
         copyCodeDiv(buttonOptionItemActive, boxTypePicture);
         copyCodeDiv(buttonOptionItemActive, boxTypePictureMin);
@@ -95,22 +96,29 @@ $(document).ready(function () {
         boxTypePictureMinFocus.removeClass('active-focus');
         boxTypePictureMin.addClass('active active-focus');
 
+        if(!panelColor.hasClass('active')){
+            panelColor.addClass('active');
+        }
+
 
     });
 
     //ACTIVE MIN PICTURE
 
-    var buttonsPictureMin = $('.avatars-box-picture-min > div ')
+    var buttonsPictureMin = $('.avatars-box-picture-min > div ');
+    var panelColor = $('.avatars-box-colors');
     
     buttonsPictureMin.on(clickEventFilter, function(){
 
         if( $(this).hasClass('active-focus') ){
 
             buttonsPictureMin.removeClass('active-focus');
+            panelColor.removeClass('active');
 
         } else {
 
             buttonsPictureMin.removeClass('active-focus');
+            panelColor.addClass('active');
             $(this).addClass('active-focus')
             
         }
@@ -139,6 +147,7 @@ $(document).ready(function () {
 
     //MOVER POSITION
 
+  
     var buttonPositionPicture = $('.avatars-box-buttons-position .avatars-box-buttons-position-item');
 
     buttonPositionPicture.on(clickEventFilter, function(){
@@ -208,6 +217,7 @@ $(document).ready(function () {
     //DELETE Buttons
 
     var buttonDeletePicture = $('.avatars-box-buttons-delete #delete-box');
+    
     buttonDeletePicture.on(clickEventFilter, function(){
 
         if(buttonsPictureMin.hasClass('active-focus')){
@@ -217,6 +227,7 @@ $(document).ready(function () {
             buttonsPictureMinActiveID = buttonsPictureMinActiveID.slice(0,buttonsPictureMinActiveID.length-4);
             var boxPictureDelete = $(`.avatars-box-picture  #${buttonsPictureMinActiveID}`);    
             buttonsPictureMinActive.removeClass('active-focus active');
+            panelColor.removeClass('active')
             boxPictureDelete.empty();
         }
 
@@ -224,28 +235,19 @@ $(document).ready(function () {
 
     //DELETE ALL Buttons
 
-    //var buttonDeleteAllPicture = $('.avatars-box-buttons-delete-all #delete-box-all');
+    var buttonDeleteAllPicture = $('.avatars-box-buttons-delete-all #delete-box-all');
     
-    //buttonDeleteAllPicture.on(clickEventFilter, function(){
+    buttonDeleteAllPicture.on(clickEventFilter, function(){
         
-        //var buttonsPictureMin = $('.avatars-box-picture-min > div.active');
-
-        //if(buttonsPictureMin.length){
-
-            //buttonsPictureMin.each(function(itemActiveMin){
-
-               // var itemActiveMinID = buttonsPictureMin[itemActiveMin].attr('id'); 
-               // itemActiveMinID = itemActiveMinID.slice(0,itemActiveMinID.length-4);
-               // var boxPictureDelete = $(`.avatars-box-picture  #${itemActiveMinID}`);
-               // boxPictureDelete.empty();     
-                // buttonsPictureMin.removeClass('active-focus active');
-               // buttonsPictureMin.empty();
+        var buttonsPictureMin = $('.avatars-box-picture-min > div.active')
+        var boxPicture = $(`.avatars-box-picture > div`);
+        var boxPictureClothes = $(`.avatars-box-picture > div#picture-clothes`);
+            boxPicture.empty();
+            buttonsPictureMin.removeClass('active active-focus');
+            panelColor.removeClass('active');
+            $('.options-clothes #clothes-01').clone().appendTo(boxPictureClothes);
      
-            // });
-     
-       // }
-        
-   // });
+    });
 
     //COlOR IRO JS
       

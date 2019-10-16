@@ -346,7 +346,7 @@
 }
 .avatars-box-buttons-size{
     display: inline-block;
-    margin-left: 15px;
+    margin-left: 16px;
     vertical-align: middle;
     width: 30px;
 }
@@ -364,6 +364,24 @@
 }
 #size-min.avatars-box-buttons-size-item:hover,
 #size-max.avatars-box-buttons-size-item:hover{
+    background-size: 60%;
+}
+.avatars-box-buttons-delete-all{
+    display: inline-block;
+    margin-top: 0px;
+    position: relative;
+    text-align: right;
+    width: 100%;
+}
+#delete-box-all.avatars-box-buttons-delete-box-item{
+    display: inline-block;
+    background: url('../img/actualizar.svg') no-repeat center;
+    background-size: 70%;
+    text-indent: 99999px;
+    line-height: 0;
+    font-size: 0;
+}
+#delete-box-all.avatars-box-buttons-delete-box-item:hover{
     background-size: 60%;
 }
 .avatars-box-picture-min{
@@ -405,6 +423,26 @@
     -moz-transition: all 0.5s 0s ease;
     -o-transition: all 0.5s 0s ease;
     transition: all 0.5s 0s ease;
+}
+.avatars-box-colors{
+    display:none;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+     filter: alpha(opacity=0);
+    -moz-opacity: 0;
+    -khtml-opacity: 0;
+    opacity: 0;
+}
+.avatars-box-colors.active{
+    display:block;
+    -webkit-transition: all 0.5s 0s ease;
+    -moz-transition: all 0.5s 0s ease;
+    -o-transition: all 0.5s 0s ease;
+    transition: all 0.5s 0s ease;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+     filter: alpha(opacity=100);
+    -moz-opacity: 1;
+    -khtml-opacity: 1;
+    opacity: 1;
 }
 
 /* end section to make avatars */
