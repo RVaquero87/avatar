@@ -184,36 +184,46 @@ $(document).ready(function () {
 
     $(document).bind('keydown', function(e) {
 
-        var buttonsPictureMinActiveID = $('.avatars-box-picture-min > div.active-focus').attr('id');  
-        buttonsPictureMinActiveID = buttonsPictureMinActiveID.slice(0,buttonsPictureMinActiveID.length-4);
-        var boxPicturePosition = $(`.avatars-box-picture #${buttonsPictureMinActiveID}`);    
-        var topBoxPicturePosition = boxPicturePosition.position();      
-        var left = 37;
-        var up = 38;
-        var right = 39;
-        var down = 40;
+        if(buttonsPictureMin.hasClass('active-focus')){
 
-        if (e.keyCode == left) {
-            topBoxPicturePosition = `${topBoxPicturePosition.left - 1}px`;                
-            boxPicturePosition.css('left', topBoxPicturePosition);   
-        } else if (e.keyCode == up) {
-            topBoxPicturePosition = `${topBoxPicturePosition.top - 1}px`;                
-            boxPicturePosition.css('top', topBoxPicturePosition);
-        } else if (e.keyCode == right) {
-            topBoxPicturePosition = `${topBoxPicturePosition.left + 1}px`;               
-            boxPicturePosition.css('left', topBoxPicturePosition);
-        } else if (e.keyCode == down) {
-            topBoxPicturePosition = `${topBoxPicturePosition.top + 1}px`;                
-            boxPicturePosition.css('top', topBoxPicturePosition);  
+            var buttonsPictureMinActiveID = $('.avatars-box-picture-min > div.active-focus').attr('id');  
+            buttonsPictureMinActiveID = buttonsPictureMinActiveID.slice(0,buttonsPictureMinActiveID.length-4);
+            var boxPicturePosition = $(`.avatars-box-picture #${buttonsPictureMinActiveID}`);    
+            var topBoxPicturePosition = boxPicturePosition.position();      
+            var left = 37;
+            var up = 38;
+            var right = 39;
+            var down = 40;
+
+            if (e.keyCode == left) {
+                topBoxPicturePosition = `${topBoxPicturePosition.left - 1}px`;                
+                boxPicturePosition.css('left', topBoxPicturePosition);   
+            } else if (e.keyCode == up) {
+                topBoxPicturePosition = `${topBoxPicturePosition.top - 1}px`;                
+                boxPicturePosition.css('top', topBoxPicturePosition);
+            } else if (e.keyCode == right) {
+                topBoxPicturePosition = `${topBoxPicturePosition.left + 1}px`;               
+                boxPicturePosition.css('left', topBoxPicturePosition);
+            } else if (e.keyCode == down) {
+                topBoxPicturePosition = `${topBoxPicturePosition.top + 1}px`;                
+                boxPicturePosition.css('top', topBoxPicturePosition);  
+            }
+
         }
 
     });
 
     $(document).bind('keyup', function() {
+
+        if(buttonsPictureMin.hasClass('active-focus')){
+
         var buttonsPictureMinActiveID = $('.avatars-box-picture-min > div.active-focus').attr('id');  
         buttonsPictureMinActiveID = buttonsPictureMinActiveID.slice(0,buttonsPictureMinActiveID.length-4);
         var boxPicturePosition = $(`.avatars-box-picture #${buttonsPictureMinActiveID}`);    
         boxPicturePosition.stop();
+
+        }
+        
     });
 
     var box = $('.avatars-box-picture > div');
