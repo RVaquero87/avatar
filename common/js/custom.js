@@ -146,8 +146,7 @@ $(document).ready(function () {
 
 
     //MOVER POSITION
-
-  
+            
     var buttonPositionPicture = $('.avatars-box-buttons-position .avatars-box-buttons-position-item');
 
     buttonPositionPicture.on(clickEventFilter, function(){
