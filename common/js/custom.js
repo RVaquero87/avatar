@@ -157,6 +157,10 @@ $(document).ready(function () {
         $(this).removeClass("avatars-box-buttons-position-item-selected");
         clearInterval(mouseStillDown);
         mouseStillDown = false;
+    }).mouseout(function() {
+        $(this).removeClass("avatars-box-buttons-position-item-selected");
+        clearInterval(mouseStillDown);
+        mouseStillDown = false;
     });
 
     function movingPiece(){
@@ -254,6 +258,10 @@ $(document).ready(function () {
         $(this).addClass("avatars-box-buttons-size-item-selected");
         sizePiece();
     }).mouseup(function() {
+        $(this).removeClass("avatars-box-buttons-size-item-selected");
+        clearInterval(mouseStillDown2);
+        mouseStillDown2 = false;
+    }).mouseout(function() {
         $(this).removeClass("avatars-box-buttons-size-item-selected");
         clearInterval(mouseStillDown2);
         mouseStillDown2 = false;
