@@ -147,15 +147,25 @@ $(document).ready(function () {
 
     //MOVER POSITION
             
+    var mouseStillDown = false;
     var buttonPositionPicture = $('.avatars-box-buttons-position .avatars-box-buttons-position-item');
 
-    buttonPositionPicture.on(clickEventFilter, function(){
+    buttonPositionPicture.mousedown(function(){
+        $(this).addClass("avatars-box-buttons-position-item-selected");
+        movingPiece();
+    }).mouseup(function() {
+        $(this).removeClass("avatars-box-buttons-position-item-selected");
+        clearInterval(mouseStillDown);
+        mouseStillDown = false;
+    });
+
+    function movingPiece(){
 
         if(buttonsPictureMin.hasClass('active-focus')){
-
+            
+            var buttonPositionPictureID = $(".avatars-box-buttons-position-item-selected").attr('id');
             var buttonsPictureMinActiveID = $('.avatars-box-picture-min > div.active-focus').attr('id');  
             buttonsPictureMinActiveID = buttonsPictureMinActiveID.slice(0,buttonsPictureMinActiveID.length-4);
-            var buttonPositionPictureID = $(this).attr('id');        
             var boxPicturePosition = $(`.avatars-box-picture #${buttonsPictureMinActiveID}`);    
             var topBoxPicturePosition = boxPicturePosition.position();        
 
@@ -179,7 +189,13 @@ $(document).ready(function () {
             }
 
         }
-    });
+
+        if (!mouseStillDown) {
+            mouseStillDown = setInterval(movingPiece, 100);
+        }
+    
+    }
+        
 
     //Mover en Picture
 
@@ -231,33 +247,46 @@ $(document).ready(function () {
 
     //WIDTH Buttons
 
+    var mouseStillDown2 = false;
     var buttonSizePicture = $('.avatars-box-buttons-size .avatars-box-buttons-size-item');
-    buttonSizePicture.on(clickEventFilter, function(){
+
+    buttonSizePicture.mousedown(function(){
+        $(this).addClass("avatars-box-buttons-size-item-selected");
+        sizePiece();
+    }).mouseup(function() {
+        $(this).removeClass("avatars-box-buttons-size-item-selected");
+        clearInterval(mouseStillDown2);
+        mouseStillDown2 = false;
+    });
+
+    function sizePiece(){
 
         if(buttonsPictureMin.hasClass('active-focus')){
-
+            
+            var buttonSizePictureID = $(".avatars-box-buttons-size-item-selected").attr('id');
             var buttonsPictureMinActiveID = $('.avatars-box-picture-min > div.active-focus').attr('id');  
             buttonsPictureMinActiveID = buttonsPictureMinActiveID.slice(0,buttonsPictureMinActiveID.length-4);
-            var buttonSizePictureID = $(this).attr('id');  
-            var boxPictureSize = $(`.avatars-box-picture  #${buttonsPictureMinActiveID}`);         
-            var mxwboxPictureSize = parseInt(boxPictureSize.css('max-width')); 
-                    
+            var boxPictureSize = $(`.avatars-box-picture  #${buttonsPictureMinActiveID}`);      
+            var mxwboxPictureSize = parseInt(boxPictureSize.css('max-width'));       
+
             switch(buttonSizePictureID){
                 case 'size-max':
                     mxwboxPictureSize = `${mxwboxPictureSize + 1}px`;                       
                     boxPictureSize.css('max-width', mxwboxPictureSize);
                 break;
                 case 'size-min':
-                        mxwboxPictureSize = `${mxwboxPictureSize - 1}px`;                
-                        boxPictureSize.css('max-width', mxwboxPictureSize); 
+                    mxwboxPictureSize = `${mxwboxPictureSize - 1}px`;                
+                    boxPictureSize.css('max-width', mxwboxPictureSize); 
                 break;
             }
 
         }
 
-    });
-
-
+        if (!mouseStillDown2) {
+            mouseStillDown2 = setInterval(sizePiece, 100);
+        }
+    
+    }
 
     //DELETE Buttons
 
