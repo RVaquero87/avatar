@@ -144,7 +144,6 @@ $(document).ready(function () {
 
     }); 
 
-
     //MOVER POSITION
             
     var mouseStillDown = false;
@@ -200,7 +199,6 @@ $(document).ready(function () {
     
     }
         
-
     //Mover en Picture
 
     var box = $('.avatars-box-picture > div');
@@ -247,7 +245,6 @@ $(document).ready(function () {
             drag.state = false;
         }
     });
-
 
     //WIDTH Buttons
 
@@ -330,8 +327,6 @@ $(document).ready(function () {
             $('.options-clothes #clothes-01').clone().appendTo(boxPictureClothes);
      
     });
-
-    
 
     //TECLADO MOVER / MAS / MENOS /Delete
 
@@ -421,6 +416,20 @@ $(document).ready(function () {
         }
 
     });
+
+    //Hacer foto a div AVATAR
+
+    /*var buttonCamaraJPG = $('.avatars-box-buttons-camara-dowload #camara-jpg');
+    var contenidoAvatar = $('.avatars-box-picture');
+    
+    buttonCamaraJPG.on(clickEventFilter, function(){
+
+        html2canvas(document.querySelector("#capture")).then(function(canvas) {
+            document.body.appendChild(canvas);
+        });
+
+    });
+    */
 
 });
 
