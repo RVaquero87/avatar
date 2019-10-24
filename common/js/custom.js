@@ -417,20 +417,6 @@ $(document).ready(function () {
 
     });
 
-    //Hacer foto a div AVATAR
-
-    /*var buttonCamaraJPG = $('.avatars-box-buttons-camara-dowload #camara-jpg');
-    var contenidoAvatar = $('.avatars-box-picture');
-    
-    buttonCamaraJPG.on(clickEventFilter, function(){
-
-        html2canvas(document.querySelector("#capture")).then(function(canvas) {
-            document.body.appendChild(canvas);
-        });
-
-    });
-    */
-
 });
 
 var btnListaTableVinagresItemsId = $(this).attr('id');
