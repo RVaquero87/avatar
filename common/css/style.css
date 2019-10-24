@@ -377,14 +377,27 @@
 }
 #delete-box-all.avatars-box-buttons-delete-box-item{
     display: inline-block;
+    height: initial;
+    line-height: 1;
+    margin-top: 10px;
+    overflow: initial;
+    padding: 4px 10px;
+    width: initial;
+}
+#delete-box-all.avatars-box-buttons-delete-box-item:before{
+    content:'';
     background: url('../img/actualizar.svg') no-repeat center;
     background-size: 70%;
-    text-indent: 99999px;
-    line-height: 0;
-    font-size: 0;
+    display: inline-block;
+    height: 20px;
+    margin-right: 5px;
+    vertical-align: middle;
+    width: 20px;
 }
-#delete-box-all.avatars-box-buttons-delete-box-item:hover{
-    background-size: 60%;
+#delete-box-all.avatars-box-buttons-delete-box-item span{
+    display: inline-block;
+    vertical-align: middle;
+    color:#333;
 }
 .avatars-box-picture-min{
     display: block;
