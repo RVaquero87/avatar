@@ -395,9 +395,39 @@
     width: 20px;
 }
 #delete-box-all.avatars-box-buttons-delete-box-item span{
+    color:#333;
     display: inline-block;
     vertical-align: middle;
-    color:#333;
+}
+.avatars-box-buttons-camara-dowload{
+    display: block;
+    font-size: 0;
+    line-height: 0;
+    margin-top: 10px;
+    position: relative;
+    text-align: right;
+    width: 100%;
+}
+.avatars-box-buttons-camara-dowload .avatars-box-buttons-camara-dowload-item{
+    display: inline-block;
+    line-height: 1;
+    font-size: 1;
+    overflow: hidden;
+    text-indent: 999999px;
+    vertical-align: middle;
+}
+#camara-jpg.avatars-box-buttons-camara-dowload-item{
+    background: url('../img/camera.svg') no-repeat center;
+    background-size: 70%;
+}
+#dowload-jpg.avatars-box-buttons-camara-dowload-item{
+    background: url('../img/square-download.svg') no-repeat center;
+    background-size: 70%;
+    margin-left: 12px;
+}
+#camara-jpg.avatars-box-buttons-camara-dowload-item:hover,
+#dowload-jpg.avatars-box-buttons-camara-dowload-item:hover{
+    background-size: 60%;
 }
 .avatars-box-picture-min{
     display: block;
